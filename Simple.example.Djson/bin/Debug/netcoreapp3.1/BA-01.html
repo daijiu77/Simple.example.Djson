@@ -1,0 +1,173 @@
+{
+    "statusCode": 200,
+    "message": "查询成功",
+    "success": true,
+    "pageSize": 0,
+    "totalPage": 0,
+    "paging": false,
+    "pageIndex": 0,
+    "totalRecord": 0,
+    "dynamicObj": [
+        {
+            "controlGroupID": 9,
+            "groupName": "控制烟雾报警开关",
+            "controlType": 1,
+            "controlTypeStr": null,
+            "effectiveDateType": null,
+            "autoStartDate": null,
+            "autoEndDate": null,
+            "effectivePeriodType": null,
+            "effectiveStartTime": null,
+            "effectiveEndTime": null,
+            "groupState": 0,
+            "remark": "",
+            "creator": 153,
+            "createTime": "2020-11-03 16:35:35",
+            "modifyTime": "2020-11-04 11:53:47",
+            "confirmID": null,
+            "confirmName": "",
+            "confirmTime": null,
+            "faultToleranceTimes": 1,
+            "lastExecutionTime": null,
+            "lastUpdateTimestamp": "2020-11-04 11:53:47",
+            "isDelete": 0,
+            "isEnable": 1,
+            "isEnableStr": null,
+            "showStart": null,
+            "hiddenStop": null,
+            "taskList": [
+                {
+                    "controlTaskID": 19,
+                    "taskName": "开启烟雾报警",
+                    "linkageGroupID": 9,
+                    "taskOrder": 1,
+                    "executeState": 1,
+                    "executeStateStr": null,
+                    "createTime": "2020-11-03 16:36:14",
+                    "conditionList": [
+                        {
+                            "taskConditonID": 38,
+                            "controlTaskID": 19,
+                            "conditionType": 1,
+                            "assetsID": null,
+                            "assetsName": "",
+                            "indicatorID": null,
+                            "indicatorName": "",
+                            "indexValueType": null,
+                            "comparisonSymbolDictID": 26,
+                            "comparingSymbolicValues": ">",
+                            "conditionValueDictionaryID": null,
+                            "conditionValue": "19",
+                            "createTime": "2020-11-05 16:02:39",
+                            "indexValueUnitDictionaryID": null,
+                            "indexValueUnit": "",
+                            "collectorNumber": "a6c7ea53-220e-4b26-a200-a3e822e993b2",
+                            "conditionFormula": "{10726,1128,1145}",
+                            "formulaValueList": [                                  
+                                  {
+                                      "ipAddress": "192.168.5.233",
+                                      "portNumber": 502,
+                                      "deviceAddress": 1,
+                                      "dataTable": 3,
+                                      "registerAddress": 0,
+                                      "elementCount": 65280,
+                                      "dataBytePosOfReceive": 9
+                                 }
+                            ],
+                            "waitingTime": 0
+                        }
+                    ],
+                    "commandList": [
+                        {
+                            "commandID": 26,
+                            "commandType": 1,
+                            "controlTaskID": 19,
+                            "runningOrder": 1,
+                            "assetsID": 10723,
+                            "assetsName": "",
+                            "indicatorID": 1127,
+                            "indicatorName": "",
+                            "indicatorValueType": 2,
+                            "indicatorUnitDictID": null,
+                            "indicatorUnit": "",
+                            "controlValueDictID": 1140,
+                            "controlValue": "开",
+                            "collectorNumber": "a6c7ea53-220e-4b26-a200-a3e822e993b2",
+                            "initialValue": "开",
+                            "initialValueDictID": 1140
+                        }
+                    ],
+                    "moveUpVisibility": "Visible",
+                    "moveDownVisibility": "Visible"
+                },
+                {
+                    "controlTaskID": 25,
+                    "taskName": "等待30秒",
+                    "linkageGroupID": 9,
+                    "taskOrder": 2,
+                    "executeState": 1,
+                    "executeStateStr": null,
+                    "createTime": "2020-11-04 11:33:56",
+                    "conditionList": [
+                        {
+                            "taskConditonID": 36,
+                            "controlTaskID": 25,
+                            "conditionType": 3,
+                            "assetsID": null,
+                            "assetsName": "",
+                            "indicatorID": null,
+                            "indicatorName": "",
+                            "indexValueType": null,
+                            "comparisonSymbolDictID": null,
+                            "comparingSymbolicValues": "",
+                            "conditionValueDictionaryID": null,
+                            "conditionValue": "",
+                            "createTime": null,
+                            "indexValueUnitDictionaryID": null,
+                            "indexValueUnit": "",
+                            "collectorNumber": null,
+                            "conditionFormula": "",
+                            "formulaValueList": [                                  
+                                  {
+                                      "ipAddress": "192.168.5.233",
+                                      "portNumber": 502,
+                                      "deviceAddress": 1,
+                                      "dataTable": 3,
+                                      "registerAddress": 0,
+                                      "elementCount": 65280,
+                                      "dataBytePosOfReceive": 9
+                                 }
+                            ],
+                            "waitingTime": 30
+                        }
+                    ],
+                    "commandList": [
+                        {
+                            "commandID": 27,
+                            "commandType": 1,
+                            "controlTaskID": 25,
+                            "runningOrder": 1,
+                            "assetsID": 10723,
+                            "assetsName": "",
+                            "indicatorID": 1127,
+                            "indicatorName": "",
+                            "indicatorValueType": 2,
+                            "indicatorUnitDictID": null,
+                            "indicatorUnit": "",
+                            "controlValueDictID": 1140,
+                            "controlValue": "开",
+                            "collectorNumber": "a6c7ea53-220e-4b26-a200-a3e822e993b2",
+                            "initialValue": "开",
+                            "initialValueDictID": 1140
+                        }
+                    ],
+                    "moveUpVisibility": "Visible",
+                    "moveDownVisibility": "Visible"
+                }                
+            ],
+            "updateStatus": 1,
+            "delayTime": 3,
+            "creatorName": "admin"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\bin\Debug\netcoreapp3.1\Simple.example.Djson.exe
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\bin\Debug\netcoreapp3.1\Simple.example.Djson.deps.json
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\bin\Debug\netcoreapp3.1\Simple.example.Djson.runtimeconfig.json
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\bin\Debug\netcoreapp3.1\Simple.example.Djson.runtimeconfig.dev.json
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\bin\Debug\netcoreapp3.1\Simple.example.Djson.dll
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\bin\Debug\netcoreapp3.1\Simple.example.Djson.pdb
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\bin\Debug\netcoreapp3.1\System.DJ.DJson.dll
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.csprojAssemblyReference.cache
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.Form1.resources
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.csproj.GenerateResource.cache
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.AssemblyInfoInputs.cache
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.AssemblyInfo.cs
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.csproj.CoreCompileInputs.cache
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.csproj.CopyComplete
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.dll
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.pdb
+E:\Projects\Github\Daijiu77\Simple.example.Djson\Simple.example.Djson\obj\Debug\netcoreapp3.1\Simple.example.Djson.genruntimeconfig.cache

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Simple.example.Djson/1.0.0": {
+        "dependencies": {
+          "System.DJ.DJson": "1.0.0.0"
+        },
+        "runtime": {
+          "Simple.example.Djson.dll": {}
+        }
+      },
+      "System.DJ.DJson/1.0.0.0": {
+        "runtime": {
+          "System.DJ.DJson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Simple.example.Djson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.DJ.DJson/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
