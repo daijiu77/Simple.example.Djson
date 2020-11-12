@@ -1,15 +1,7 @@
 ﻿using Simple.example.Djson.entities;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.DJ.DJson;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Simple.example.Djson
@@ -19,10 +11,11 @@ namespace Simple.example.Djson
         public Form1()
         {
             InitializeComponent();
-            init();
+            test1();
+            test2();
         }
 
-        void init()
+        void test1()
         {
             string root = Application.StartupPath;
             string fp = Path.Combine(root, "BA-01.json");
@@ -62,6 +55,17 @@ namespace Simple.example.Djson
                 s = item.key + ": " + item.value;
                 Trace.WriteLine(s);
             }
+        }
+
+        void test2()
+        {
+            string root = Application.StartupPath;
+            string fp = Path.Combine(root, "test.json");
+            string txt = File.ReadAllText(fp);
+
+            DJson djson = DJson.From(txt);
+            DJsonItem dJsonItem = djson["dynamicObj"];
+            txt += "";
         }
 
     }

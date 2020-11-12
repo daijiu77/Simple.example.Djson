@@ -1,0 +1,1 @@
+{"statusCode":200,"message":"查询成功","success":true,"pageSize":100,"totalPage":1,"paging":true,"pageIndex":1,"totalRecord":2,"dynamicObj":{"statusList":[{"assetsID":10726,"updateState":1},{"assetsID":10723,"updateState":1}],"deleteList":null}}
