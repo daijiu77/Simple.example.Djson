@@ -60,7 +60,7 @@ namespace Simple.example.Djson
         void test2()
         {
             string root = Application.StartupPath;
-            string fp = Path.Combine(root, "test.json");
+            string fp = Path.Combine(root, "test1.json");
             string txt = File.ReadAllText(fp);
 
             DJson djson = DJson.From(txt);
